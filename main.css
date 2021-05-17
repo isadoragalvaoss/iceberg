@@ -45,6 +45,28 @@ html,body{
     margin-left: 10px;
 }
 
+#pagina2{
+    margin-top: 800px;
+    z-index: 2;
+    background-color: #E5E5E5;
+}
+
+#pagina2 h1,p,h4{
+    text-align: center;
+}
+
+#pagina2 .colunas p,h4{
+    color: white;
+}
+
+#pagina2 img{
+    justify-content: center;
+}
+
+#pagina2 .colunas{
+    background-color: #83baf8;
+    border-radius: 10px;
+}
 @media (min-width: 768px){
     #iceberg img{
         width: 60%;
