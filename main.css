@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+}
+
+#iceberg img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#acimaiceberg{
+    z-index: 2;
+}
+#iceberg{
+    z-index: 1;
+    margin-top: 150px;
+}
+
+#borda{
+    z-index: 0;
+    background-color: rgb(233, 227, 227);
+    border-radius: 500px;
+    width: 1271px;
+    height: 1302px;
+    margin-top: -29px;
+    overflow: hidden;
+}
+
+#btnlogin{
+    width: 132px;
+    height: 53px;
+    border-radius: 23px;
+}
+
+#btnexpandir button{
+    border-radius: 1000px;
+    width: 327px;
+}
+
+#btnexpandir button i{
+    color: blue;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px){
+    #iceberg img{
+        width: 60%;
+        height: 60%;
+        margin-top: -150px;
+        margin-left: 540px;
+        
+    }
+
+    #titulo{
+        margin-top: 100px;
+    }
+
+    #btnexpandir{
+        margin-top: 150px;
+    }
+    
+    
+}
