@@ -1,154 +1,286 @@
 html,body{
-    overflow-x: hidden;
+  overflow-x: hidden;
+  background-color:#f0f5f5;
 }
 
-#iceberg img{
-    width: 100%;
-    height: 100%;
-    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-#acimaiceberg{
-    z-index: 2;
-}
-#iceberg{
-    z-index: 1;
-    margin-top: 150px;
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+  margin-top: 1.5%;
 }
 
-#borda{
-    z-index: 0;
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
+nav ul li{
+  padding-right: 40%;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid;
+  border-color: #0A7BFC;
 }
 
 #btnlogin{
-    width: 132px;
-    height: 53px;
-    border-radius: 23px;
+  visibility: hidden;
 }
 
-#btnexpandir button{
-    border-radius: 1000px;
-    width: 327px;
+.pag1{
+  background-image: url('icebergFundo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 900px;
+  background-position-x: right;
+  background-position-y: center;
+  padding-left: 5%;
+}
+.pag1 h1{
+  width: 60%;
+  border-bottom: 1px solid;
+  border-color: #DED2D2;
+  font-size: 60px;
+  margin-top: 8%;
+  padding-bottom: 2%;
 }
 
-#btnexpandir button i{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    margin-left: 10px;
-    color: white;
+
+.pag1 p{
+  font-size: 20px;
+  width: 50%;
 }
 
-@-webkit-keyframes hvr-icon-down {
-    0%,
-      50%,
-      100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    25%,
-      75% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
+
+.pag2{
+  margin-top: 8%;
+  background-color: #DBECFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.quadro{
+  background-color: #96C7FF;
+  width: 280px;
+  margin-left: 30px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0 10px 5px grey;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.quadro:hover{
+  padding-bottom: 400px;
+  background-image: url('pinguim.png');
+  background-repeat: no-repeat;
+  background-size: 70% ;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.quadro h4{
+  font-size: 26px;
+}
+.quadro p{
+  padding-top: 20px;
+  width: auto;
+  color: white;
+}
+
+.embaixo{
+  margin-top: 100px;
+}
+
+.pag3{
+  margin-top: 15%;
+  height: 500px;
+  padding: 10px 100px;
+  
+}
+
+.pag3 h2{
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #0A7BFC;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.blocos{
+  padding: 10px 100px;
+}
+.blocos .row {
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #0A7BFC;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.servicos h4{
+  padding-top: 5%;
+  width: 80%;
+  font-size: 20px;
+}
+
+.pag3 a{
+  color: black;
+}
+
+.pag3 a:hover{
+  color: #0A7BFC;
+  text-decoration: none;
+}
+
+.pag4{
+  margin-top: 15%;
+  padding-left: 15%;
+}
+
+.pag4 h2{
+  padding-bottom: 5%;
+  border-bottom: 1px solid;
+  border-color: #DED2D2;
+}
+
+.pag4 p{
+  width: 90%;
+}
+
+
+.face {
+  display: block;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frente {
+  background-color: #C0D9D9;
+  transform: translateZ(100px);
+}
+.direita {
+  background-color: #d4e9e9;
+  transform: translateX(100px) rotateY(90deg);
+}
+.esquerda {
+  background-color: #d4e9e9;
+  transform: translateX(-100px) rotateY(-90deg);
+}
+.cima {
+  background-color: #d4e9e9;
+  transform: translateY(100px) rotateX(90deg);
+}
+.baixo {
+  background-color: #d4e9e9;
+  transform: translateY(-100px) rotateX(-90deg);
+}
+.tras {
+  background-color: #C0D9D9;
+  transform: translateZ(-100px) rotateY(180deg);
+}
+.cubo {
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+  transform: rotateX(10deg) rotateY(10deg);  
+  animation: rotation 45s infinite ;
   }
-  @keyframes hvr-icon-down {
-    0%,
-      50%,
-      100% {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    25%,
-      75% {
-      -webkit-transform: translateY(6px);
-      transform: translateY(6px);
-    }
-  }
-  /* Icon Down */
-  .hvr-icon-down {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  }
-  .hvr-icon-down .hvr-icon {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-  }
-  .hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {
-    -webkit-animation-name: hvr-icon-down;
-    animation-name: hvr-icon-down;
-    -webkit-animation-duration: 0.75s;
-    animation-duration: 0.75s;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
+
+@keyframes rotation{
+from{transform: rotate(0deg) rotateX(0deg);}
+to{transform: rotate(720deg) rotateX(720deg);} 
+}
+
+.pag5{
+  margin-top: 15%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.4%, #f0f5f5 100%), rgba(181, 211, 244, 0.99);
+  height: 400px;
+  padding: 5% 15%;
+}
+
+.pag5 h2{
+  width: 20%;
+  border-bottom: 2px solid;
+  border-color: #96C7FF;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+footer{
+    padding-left: 5%;
+    margin-top: 7%;
+}
+
+footer ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding-top: 5%;
+}
+
+footer ul li{
+    padding-right: 20px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .pag1 h1{
+      font-size: 40px;
   }
   
-#pagina2{
-    margin-top: 490px;
-    z-index: 2;
-    background-color: #ffffff;
-}
-
-#pagina2 h1,p,h4{
-    text-align: center;
-}
-
-#pagina2 .colunas p,h4{
-    color: white;
-}
-
-
-#pagina2 .colunas{
-    background-color: #7cb4f5;
-    border-radius: 10px;
-    width: 90%;
-}
-
-.hvr-grow-shadow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-  }
-  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
-    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+  .pag1 p{
+      visibility: hidden;
   }
 
-@media (min-width: 768px){
-    #iceberg img{
-        width: 80%;
-        height: 80%;
-        margin-top: -150px;
-        margin-left: 62%;
-        
-    }
+  .pag2{
+      margin-top: 0;
+      height: auto;
+      width: -webkit-fill-available;
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+  }
 
-    #titulo{
-        margin-top: 100px;
-    }
+  
+  .quadro{
+      margin-top: 5%;
+  }
 
-    #btnexpandir{
-        margin-top: 150px;
-    }
-    
-    #borda{
-        margin-left: 45%;
-    }
-    
-    #pagina2{
-        margin-top: 800px;
-    }
+  .pag3{
+      margin-top: 25%;
+      height: auto;
+      padding: 10px 0;
+  }
+  
+  .cubo{
+      left: 0;
+  }
+
+  .pag5{
+      margin-top: 50%;
+  }
 }
