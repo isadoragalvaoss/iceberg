@@ -256,11 +256,11 @@ footer p {
       visibility: hidden;
   }
 
-  .pag1 a{
+  #btnExpandir{
     margin-top: -50%;
   }
   .pag2{
-      margin-top: -20%;
+      margin-top: -25%;
       height: auto;
       width: -webkit-fill-available;
       display: inline-block;
@@ -279,6 +279,9 @@ footer p {
       padding: 10px 0;
   }
   
+  .servicos h4{
+    width: 100%;
+  }
   .cubo{
       left: 0;
   }
