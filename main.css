@@ -256,8 +256,11 @@ footer p {
       visibility: hidden;
   }
 
+  .pag1 a{
+    margin-top: -50%;
+  }
   .pag2{
-      margin-top: 0;
+      margin-top: -20%;
       height: auto;
       width: -webkit-fill-available;
       display: inline-block;
