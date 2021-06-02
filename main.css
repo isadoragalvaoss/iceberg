@@ -1,6 +1,6 @@
 html,body{
   overflow-x: hidden;
-  background-color:#f0f5f5;
+  background-color:aliceblue;
 }
 
 nav {
@@ -30,6 +30,10 @@ nav ul li a:hover{
   border-color: #0A7BFC;
 }
 
+.active a{
+  border-bottom: 2px solid;
+  border-color: #0A7BFC;
+}
 #btnlogin{
   visibility: hidden;
 }
@@ -211,7 +215,7 @@ to{transform: rotate(720deg) rotateX(720deg);}
 
 .pag5{
   margin-top: 15%;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.4%, #f0f5f5 100%), rgba(181, 211, 244, 0.99);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 5.4%, aliceblue 100%), rgba(181, 211, 244, 0.99);
   height: 400px;
   padding: 5% 15%;
 }
