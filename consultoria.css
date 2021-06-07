@@ -154,3 +154,12 @@ footer ul li{
 footer p {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px){
+
+  footer{
+    padding-left: 5%;
+    margin-top: 300%;
+}
+
+}
