@@ -20,7 +20,7 @@ nav ul{
 }
 
 nav ul li{
-  padding-right: 40%;
+  padding-right: 20%;
   font-size: 20px;
 }
 
@@ -76,7 +76,7 @@ nav ul li a:hover{
 .quadro{
   background-color: #96C7FF;
   width: 280px;
-  margin-left: 30px;
+  margin-left: 5%;
   height: 250px;
   border-radius: 5px;
   box-shadow: 0 10px 5px grey;
@@ -279,6 +279,7 @@ footer p {
   
   .quadro{
       margin-top: 5%;
+      margin-left: 12%;
   }
 
   .pag3{
@@ -291,10 +292,19 @@ footer p {
     width: 100%;
   }
   .cubo{
-      left: 0;
+      left: 8%;
+  }
+
+  .pag4 h2{
+    width: 90%;
   }
 
   .pag5{
       margin-top: 50%;
   }
+
+  footer{
+    margin-top: -20%;
+  }
+  
 }
