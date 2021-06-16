@@ -84,9 +84,27 @@ nav ul li a:hover{
   text-align: center;
 }
 
-.quadro:hover{
+#quadro1:hover{
   padding-bottom: 400px;
   background-image: url('pinguim.png');
+  background-repeat: no-repeat;
+  background-size: 70% ;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#quadro2:hover{
+  padding-bottom: 400px;
+  background-image: url('teste1-01.png');
+  background-repeat: no-repeat;
+  background-size: 70% ;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#quadro3:hover{
+  padding-bottom: 400px;
+  background-image: url('teste1-03.png');
   background-repeat: no-repeat;
   background-size: 70% ;
   background-position-x: center;
