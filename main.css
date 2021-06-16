@@ -3,6 +3,19 @@ html,body{
   background-color:aliceblue;
 }
 
+#logo{
+  padding-top: 15%;
+  padding-left: 0;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-sm-light.stick-top {
+  padding-left: 0;
+}
+
+.container-fluid{
+  padding-left: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -20,7 +33,7 @@ nav ul{
 }
 
 nav ul li{
-  padding-right: 20%;
+  padding-right: 22%;
   font-size: 20px;
 }
 
@@ -50,10 +63,8 @@ nav ul li a:hover{
 }
 .pag1 h1{
   width: 60%;
-  border-bottom: 1px solid;
-  border-color: #DED2D2;
   font-size: 60px;
-  margin-top: 8%;
+  margin-top: 5%;
   padding-bottom: 2%;
 }
 
@@ -63,6 +74,11 @@ nav ul li a:hover{
   width: 50%;
 }
 
+#btnExpandir{
+  margin-top: 7%;
+  width: 25%;
+  font-size: 20px;
+}
 
 .pag2{
   margin-top: 8%;
@@ -167,6 +183,9 @@ nav ul li a:hover{
   text-decoration: none;
 }
 
+.modal-content{
+  background-color: #7fc6e6;
+}
 .pag4{
   margin-top: 15%;
   padding-left: 15%;
@@ -272,6 +291,13 @@ footer ul li{
 footer p {
     margin-bottom: 0;
 }
+
+.listanav{
+  padding-top: 0;
+  display: block;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .pag1 h1{

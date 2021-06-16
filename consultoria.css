@@ -80,6 +80,18 @@
     background-color:aliceblue;
   }
   
+  #logo{
+    padding-top: 15%;
+    padding-left: 0;
+  }
+  
+  nav.navbar.navbar-expand-md.navbar-light.bg-sm-light.stick-top {
+    padding-left: 0;
+  }
+  
+  .container-fluid{
+    padding-left: 0;
+  }
   .pag1{
     background-image: url('icebergFundo.png');
     background-repeat: no-repeat;
@@ -109,7 +121,7 @@
   }
   
   nav ul li{
-    padding-right: 20%;
+    padding-right: 22%;
     font-size: 20px;
   }
   
@@ -147,6 +159,11 @@ footer ul li{
 
 footer p {
     margin-bottom: 0;
+}
+
+.listanav{
+  padding-top: 0;
+  display: block;
 }
 
 @media screen and (max-width: 768px){
