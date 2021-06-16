@@ -141,9 +141,14 @@
   }
   
   
+  .pag2 h2{
+    width: 120%;
+    margin-top: 30%;
+  }
+  
   footer{
     padding-left: 5%;
-    margin-top: 70%;
+    margin-top: 80%;
 }
 
 footer ul{
