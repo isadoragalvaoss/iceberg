@@ -65,9 +65,9 @@ html,body{
   }
 
   .pg2-1{
-    height: 300px;
     margin-top: 3%;
-    padding-top: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #eeeeee;
   }
 
@@ -119,4 +119,10 @@ footer p {
 .listanav{
   padding-top: 0;
   display: block;
+}
+
+@media screen and (max-width: 768px){
+
+
+
 }

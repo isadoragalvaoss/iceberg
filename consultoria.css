@@ -175,7 +175,11 @@ footer p {
 
   footer{
     padding-left: 5%;
-    margin-top: 300%;
+    margin-top: 330%;
+}
+
+.pag2 h2{
+  margin-top: 0%;
 }
 
 }
